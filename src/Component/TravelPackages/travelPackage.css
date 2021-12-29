@@ -1,0 +1,37 @@
+.package-container{
+    padding: 50px 0;
+ }
+ 
+ .package-header-container{
+   padding-bottom: 30px;
+   text-align: center;
+ }
+ 
+ .package-header-container .package-title{
+   font-size: 35px;
+   font-weight: 900;
+   margin-bottom: -5px;
+   color: var(--main-color);
+   font-family: 'Playfair Display', serif;
+   letter-spacing: 1px;
+ }
+
+ .package-title-underline{
+  margin: 10px auto 20px;
+  width: 180px;
+  height: 4px;
+  background: var(--main-color);
+  border-radius: 50%;
+}
+ 
+ .package-header-container .packages-description{
+   font-size: 18px;
+   font-weight: 500;
+   color: var(--text-color);
+   letter-spacing: .5px;
+ }
+
+
+ /* .slider-package-container{
+  width: 340px!important;
+} */

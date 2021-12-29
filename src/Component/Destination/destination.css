@@ -1,0 +1,104 @@
+.swiper-sliderBanner{
+    width: 100%;
+    height: 700px!important;
+}
+.destination-content{
+    padding: 40px 0;
+}
+
+.destination-location{
+    display: flex;
+    align-items: center;
+}
+
+.destination-location .location{
+    fill: #000;
+}
+
+.destination-location h3{
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.destination-location a{
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 4px;
+    border:2px solid #000;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+    transition: .3s ease-in;
+}
+
+.destination-location a:hover{
+    background: #000;
+    color: #fff;
+}
+
+
+.destination-title-container{
+    padding: 20px 0;
+}
+
+.destination-title-container .title{
+   font-size: 23px;   
+   font-weight: 600;
+}
+
+.destination-title-container .subtitle{
+   font-size: 18px;   
+   font-weight: 500;
+    max-width: 700px;
+}
+
+.destination-description-container p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #000;
+    opacity: .7;
+}
+
+.destination-description-container h3{
+    font-size: 16px;
+    font-weight: 600;
+    padding:5px 0;
+    color: #000;
+}
+
+.destination-description-container h3 span{
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    color: #000;
+    opacity: .7;
+}
+
+.destination-description-container ul{
+    padding: 0 0 20px 20px;
+}
+
+.destination-video{
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    margin-top: 20px; 
+    padding: 8px 20px;
+    border:2px solid green;
+    border-radius: 4px;
+    color: green;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.destination-video .play{
+    width: 10px;
+    margin-right: 10px;
+}
+
+.destination-video:hover{
+    background: green;
+    color: #fff;
+}
