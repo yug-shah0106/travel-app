@@ -1,5 +1,5 @@
 import React from 'react'
-import travel from '../../images/travel.png'; 
+// import travel from '../../images/travel.png'; 
 
 function About() {
     return (
@@ -8,7 +8,7 @@ function About() {
                 <div className="section-flex">
                     <div className="section-left">
                         <div className="section-img-container">
-                            <img src={travel} className="section-img" alt="cover-image"/>
+                            <img src="" className="section-img" alt="cover-image"/>
                         </div>
                     </div>
 

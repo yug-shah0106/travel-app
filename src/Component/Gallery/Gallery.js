@@ -1,7 +1,7 @@
 import React from 'react'
 import './gallery.css';
-import kashmir from  '../../images/kashmir.jpg';
-import banner1 from '../../images/banner1.jpg';
+// import kashmir from  '../../images/kashmir.jpg';
+// import banner1 from '../../images/banner1.jpg';
 
 function Gallery() {
     return (
@@ -18,13 +18,13 @@ function Gallery() {
                          <img src={kashmir} alt="" />
                     </div>
                     <div className="gallery-grid-item">
-                         <img src={banner1} alt="" />
+                         <img src="" alt="" />
                     </div>
                     {/* <div className="gallery-grid-item">
                          <img src={beach} alt="" />
                     </div> */}
                     <div className="gallery-grid-item">
-                         <img src={banner1} alt="" />
+                         <img src="" alt="" />
                     </div>
                 </div>
             </div>

@@ -1,14 +1,16 @@
 import React from 'react'
 import './allDestination.css'
-import kashmir from '../../images/kashmir.jpg';
+// import kashmir from '../../images/kashmir.jpg';
 import Star from '../SvgIcons/Star';
 import Dollar from '../SvgIcons/Dollar';
 import SearchBar from '../SearchBar/SearchBar';
 import {ToursPackages} from './ToursPackages';
-import { useHistory } from 'react-router-dom';
+import { useHistory, useRouteMatch } from 'react-router-dom';
 
 function AllDestination() {
     const history = useHistory();
+    const { url } = useRouteMatch();
+
     return (
         <div className="allDestination">
             <div className="container">
@@ -21,7 +23,7 @@ function AllDestination() {
                             history.push(`/singleDestination/${id}`)
                         }}>
                             <div className="allDestination-img-container">
-                                <img src={kashmir} alt="image" />
+                                <img src="" alt="image" />
                             </div>
                             <div className="allDestination-content">
                                 <h1 className="allDestination-title">{title}</h1>

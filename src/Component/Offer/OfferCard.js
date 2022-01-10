@@ -1,12 +1,12 @@
 import React from 'react'
-import kashmir from '../../images/kashmir.jpg';
+// import kashmir from '../../images/kashmir.jpg';
 import Star from '../SvgIcons/Star'
 
 function OfferCard() {
     return (
         <div className="offerCard-container">
             <div className="offerCard-img-container">
-                <img src={kashmir} alt="" />
+                <img src="" alt="" />
             </div>
             <div className="offerCard-content">
                 <h2 className="offerCard-content-title">Agra, India</h2>

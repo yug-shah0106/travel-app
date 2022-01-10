@@ -1,5 +1,5 @@
 import React from 'react'
-import banner from '../../images/banner1.jpg'; 
+// import banner from '../../images/banner1.jpg'; 
 import { Pagination, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './banner.css';
@@ -20,7 +20,7 @@ function Banner() {
                 pagination={{ clickable: true }}
                 >
                 <SwiperSlide className="slider-banner-container">
-                    <img src={banner} className="slider-banner-image" alt="Beach image" />
+                    <img src="" className="slider-banner-image" alt="Beach image" />
                     <div className="swiper-content-container">
                         <h2 className="swiper-content-subtitle">Enjoy the best destinations with our travel agency</h2>
                         <h1 className="swiper-content-title">Explore the World</h1>
@@ -28,7 +28,7 @@ function Banner() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className="slider-banner-container">
-                    <img src={banner} className="slider-banner-image" alt="Beach image" />
+                    <img src="" className="slider-banner-image" alt="Beach image" />
                     <div className="swiper-content-container">
                         <h2 className="swiper-content-subtitle">Enjoy the best destinations with our travel agency</h2>
                         <h1 className="swiper-content-title">Explore the World</h1>
@@ -36,7 +36,7 @@ function Banner() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className="slider-banner-container">
-                    <img src={banner} className="slider-banner-image" alt="Beach image" />
+                    <img src="" className="slider-banner-image" alt="Beach image" />
                     <div className="swiper-content-container">
                         <h2 className="swiper-content-subtitle">Enjoy the best destinations with our travel agency</h2>
                         <h1 className="swiper-content-title">Explore the World</h1>
