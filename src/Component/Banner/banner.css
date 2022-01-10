@@ -31,13 +31,45 @@
     margin-bottom: -13px;
     letter-spacing: 1px;
   }
+
+  .swiper-content-multiple{
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--title-color);
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+
+  .swiper-content-submultiple{
+    font-weight: 600;
+    font-size: 28px;
+    color: var(--title-color);
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+
+  /* .swiper-content-subtitle3{
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--title-color);
+    margin-bottom: -13px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+  }
+  .swiper-content-subtitle{
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--title-color);
+    margin-bottom: -13px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+  } */
   
   .swiper-content-title{
     font-weight: 700;
     font-size: 80px;
     text-transform: capitalize;
     color: var(--title-color);
-    margin-bottom: 40px;
     font-family: 'Playfair Display', serif;
   }
   

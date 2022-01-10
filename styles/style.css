@@ -29,7 +29,7 @@ body{
 /* ********************  Navbar start css  ********************* */
 
 .nav{
-  max-width: 90%;
+  max-width: 100%;
   margin:0px auto;
   height: 90px;
   display: flex;
@@ -38,6 +38,13 @@ body{
   transition: .3s ease-in-out;
   overflow: hidden;
   z-index: 999;
+  background-color: white;
+}
+
+.nav.active{
+  top: 0;
+  background-color: var(--main-color);
+  box-shadow: 0 2px 20px rgba(0,0,0, .4);
 }
 
 .hamburger{
@@ -69,19 +76,6 @@ body{
 .empty{
    display: none;
 }
-
-
-.logo{
-  position: relative;
-  margin: 0;
-  font-size: 22px;
-  color: var(--bold-color);
-  font-weight: 700;
-  transition: .3s;
-  cursor: pointer;
-  z-index: 1000;
-}
-
 
 .side-menu ul{
 margin: 0px;
@@ -560,7 +554,7 @@ color:var(--text-color);
   font-size: 22px;
   font-weight: 700;
   padding-bottom: 25px;  
-  color: var(--bold-color);
+  color: var(--text-color);
 }
 
 .footer-column ul li{
@@ -653,9 +647,9 @@ color:var(--text-color);
  .section .title{
   color: var(--block-color);
   margin: 0;
-  font-size:40px;
+  font-size:34px;
   font-weight: 700;
-  max-width: 400px;
+  max-width: 600px;
   color: var(--bold-color);
   letter-spacing: 2px;
   text-transform: capitalize;
@@ -777,4 +771,8 @@ color:var(--text-color);
 
 .search-container .search-circle-container:hover{
   opacity: .6;
+}
+
+.margin-top{
+  margin-top:50px;
 }

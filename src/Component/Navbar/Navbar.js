@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './navbar.css';
 import { useHistory } from 'react-router-dom';
+import logo from '../../images/logo.png'; 
 
 function Navbar() {
 
@@ -51,7 +52,7 @@ function Navbar() {
                     <div className="logo-block">
                         <h1 className="logo" onClick={()=>{
                             history.push("/");
-                        }}> TravelsWorld</h1>
+                        }}> <img className="logo-image" src={logo}></img></h1>
                     </div>
             
                     <div className="side-menu">
@@ -81,7 +82,7 @@ function Navbar() {
                     <div className="hamburger" onClick={handleOpen} >
                         <span className={open ? "span span1 active" : "span span1"}></span>
                         <span className={open ? "span span2 active" : "span span2"}></span>
-                    </div>
+                    </div>  
             </div>
         </div>
     )

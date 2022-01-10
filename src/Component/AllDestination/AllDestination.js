@@ -1,6 +1,6 @@
 import React from 'react'
 import './allDestination.css'
-// import kashmir from '../../images/kashmir.jpg';
+import kashmir from '../../images/kashmir.jpg';
 import Star from '../SvgIcons/Star';
 import Dollar from '../SvgIcons/Dollar';
 import SearchBar from '../SearchBar/SearchBar';
@@ -23,7 +23,7 @@ function AllDestination() {
                             history.push(`/singleDestination/${id}`)
                         }}>
                             <div className="allDestination-img-container">
-                                <img src="" alt="image" />
+                                <img src={kashmir} alt="image" />
                             </div>
                             <div className="allDestination-content">
                                 <h1 className="allDestination-title">{title}</h1>
