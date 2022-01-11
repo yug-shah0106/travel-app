@@ -11,7 +11,7 @@ function Card({src,cardTitle,subTitle}) {
             history.push(`/allDestination?${cardTitle}`);
         }}>
             <div className="card-img-container">
-                <img src={src} alt="kashmir" />
+                <img src={src} alt={src} />
             </div>
             <div className="card-location-container">
                 <h1 className="card-title">{cardTitle}</h1>

@@ -6,6 +6,7 @@ import Gallery from "./Component/Gallery/Gallery";
 import Offer from "./Component/Offer/Offer";
 import MainPackage from "./Component/MainPackage/MainPackage";
 import DomesticTravelPackages from "./Component/TravelPackages/DomesticTravelPackages";
+import Honeymoon from "./Component/HoneyMoon/HoneyMoon";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
      <MainPackage/>  
      <DomesticTravelPackages />
      {/* <InternationalTravelPackages /> */}
+     <Honeymoon/>
      <Offer/>
      <About/>
      <Gallery/>

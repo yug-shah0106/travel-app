@@ -16,10 +16,10 @@ function About() {
                         <div className="content"> 
                             <h1 className="title">FulFil your exclusive bucket list</h1>
                             <ul>
-                                <li>See the 7 Wonders of world</li>
-                                <li>Take a safari through africa</li>
-                                <li>Take a hot air balloon ride</li>
-                                <li>go snorekling in the blues reefs</li>
+                                <li> Visit the Taj Mahal in Agra.</li>
+                                <li>Sleep under the stars in the Great Thar Desert.</li>
+                                <li>Be adventurous and go trekking in the Himalayas.</li>
+                                <li>Explore the hidden caves within the Jaintia Hills.</li>
                             </ul>
                         </div>
                     </div>

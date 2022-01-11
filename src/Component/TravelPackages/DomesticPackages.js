@@ -1,17 +1,22 @@
+import South from "../../images/South/South-1.jpg";
+import North from "../../images/North/North-1.jpg";
+import West from "../../images/West/West-1.jpg";
+import East from "../../images/East/East-1.jpg";
+
 export const DomesticPackages = [{
-    src:"",
+    src:South,
     cardTitle:"South",
-    subTitle:"South checking"
+    subTitle:"Southern Vibes"
 },{
-    src:"",
+    src:North,
     cardTitle:"North",
-    subTitle:"North checking"
+    subTitle:"Northern Vibes"
 },{
-    src:"",
+    src:West,
     cardTitle:"West",
-    subTitle:"West checking"
+    subTitle:"Western Vibes"
 },{
-    src:"",
+    src:East,
     cardTitle:"East",
-    subTitle:"East checking"
+    subTitle:"Eastern Vibes"
 }]

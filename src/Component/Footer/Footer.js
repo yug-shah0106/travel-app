@@ -1,7 +1,7 @@
 import React from 'react'
 import Facebook from '../SvgIcons/Facebook'
 import LinkedIn from '../SvgIcons/LinkedIn'
-import Pinterest from '../SvgIcons/Pinterest'
+import Instagram from '../SvgIcons/Instagram'
 import Twitter from '../SvgIcons/Twitter'
 import './footer.css'
 
@@ -12,19 +12,19 @@ function Footer() {
             <div className="footer-column-container">
 
                 <div className="footer-column">
-                    <h4 className="footer-column-header-logo">TravelsWorld.</h4>
+                    <h4 className="footer-column-header-logo">Find N Vibe Tours and Events Pvt Ltd</h4>
                     <div className="social-icon-container">
                         <div className="social-icon-block">
-                            <Twitter className="twitter" />
+                            <a href="https://twitter.com/findnvibe?t=XiFe9rk2AwoyGPJvsvah3Q&s=09"><Twitter className="twitter" /></a>
                         </div>
                         <div className="social-icon-block">
-                            <Facebook className="facebook" />
+                            <a href="https://www.facebook.com/findnvibe/"><Facebook className="facebook" /></a>
                         </div>
                         <div className="social-icon-block">
-                            <LinkedIn className="linkedin" />
+                            <a href="https://www.linkedin.com/company/find-n-vibe-tours-and-events-private-limited"><LinkedIn className="linkedin" /></a>
                         </div>
                         <div className="social-icon-block">
-                            <Pinterest className="pinterest" />
+                            <a href="https://instagram.com/_find_n_vibe_?utm_medium=copy_link"><Instagram className="Instagram" /></a>
                         </div>
                     </div>
                 </div>
@@ -42,13 +42,13 @@ function Footer() {
                 <div className="footer-column">
                     <h4 className="footer-column-header">Detinations</h4>
                     <ul>
-                        <li><a href="">Africa</a></li>
-                        <li><a href="">Ocenia</a></li>
-                        <li><a href="">Portugal</a></li>
-                        <li><a href="">Switzerland</a></li>
-                        <li><a href="">Canada</a></li>
-                        <li><a href="">Australia</a></li>
-                        <li><a href="">Norway</a></li>
+                        <li><a href="">Delhi</a></li>
+                        <li><a href="">Delhi</a></li>
+                        <li><a href="">Delhi</a></li>
+                        <li><a href="">Delhi</a></li>
+                        <li><a href="">Delhi</a></li>
+                        <li><a href="">Delhi</a></li>
+                        <li><a href="">Delhi</a></li>
                     </ul>
                 </div>
 
@@ -62,7 +62,7 @@ function Footer() {
                     </ul>
                 </div>
 
-                <div className="footer-column">
+                {/* <div className="footer-column">
                     <h4 className="footer-column-header">My Account</h4>
                     <ul>
                         <li><a href="">My Account </a></li>
@@ -70,6 +70,9 @@ function Footer() {
                         <li><a href="">WishList</a></li>
                         <li><a href="">Newsletter</a></li>
                     </ul>
+                </div> */}
+                <div className="footer-column">
+                    <h6>copyright to Find N Vibe Tours and Events Pvt Ltd</h6>
                 </div>
             </div>  
           </div>  
