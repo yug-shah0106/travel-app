@@ -14,7 +14,7 @@
     font-size: 30px;
     text-align: center;
     padding-bottom: 20px;
-    color: var(--text-color);
+    color: var(--title-color);
     
 }
   
@@ -22,7 +22,7 @@
     font-size: 22px;
     font-weight: 700;
     padding-bottom: 25px;  
-    color: var(--text-color);
+    color: var(--title-color);
   }
   
   .footer-column ul li{
@@ -35,7 +35,7 @@
     font-weight: 700;
     letter-spacing: .5px;
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--title-color);
     opacity: .7;
   }
   

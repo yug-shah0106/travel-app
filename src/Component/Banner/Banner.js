@@ -29,7 +29,7 @@ function Banner() {
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className="slider-banner-container">
+                {/* <SwiperSlide className="slider-banner-container">
                     <img src={banner} className="slider-banner-image" alt="Beach image" />
                     <div className="swiper-content-container">
                         <h5 className="swiper-content-multiple">Planning a vacation anytime soon?</h5>
@@ -49,7 +49,7 @@ function Banner() {
                             <a href="#"><h5 className="swiper-content-subtitle">Solo Vibes</h5></a>
                         </div>
                     </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
             </Swiper>
         </div>
     )
