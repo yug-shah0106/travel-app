@@ -6,7 +6,7 @@
   
   .footer-column-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     grid-gap: 20px;
   }
 
@@ -48,11 +48,10 @@
   .social-icon-container{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
   }
   
   .social-icon-block{
-    margin: 0 15px;
     width: 38px;
     height: 38px;
     display: grid;
@@ -81,3 +80,29 @@
   
   /* ****  Social icon css end  *** */
   
+
+  @media only screen and (max-width:1200px){
+
+    .footer-column-container{
+      grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); 
+      grid-gap: 10px;
+    }
+  
+    .footer-column-header-logo{
+      font-size: 26px;
+    }
+    
+    .footer-column-header{
+      font-size: 20px;
+    }
+        
+    .footer-column ul li a{
+      font-size: 14px;
+    }
+
+    .social-icon-block{
+      width: 30px;
+      height: 30px;
+    }
+
+  }

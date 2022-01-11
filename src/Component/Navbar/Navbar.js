@@ -11,7 +11,7 @@ function Navbar() {
 
         const changeBackground = () =>{
                     
-            if(window.scrollY >= 100){
+            if(window.scrollY >= 80){
                 setNav(true);
             }
             else{
@@ -50,9 +50,7 @@ function Navbar() {
         <div className={nav ? "nav active" : "nav"}>
             <div className="container">
                     <div className="logo-block">
-                        <h1 className="logo" onClick={()=>{
-                            history.push("/");
-                        }}> <img className="logo-image" src={logo}></img></h1>
+                        <img className="logo" onClick={()=>history.push("/")} src={logo}></img>
                     </div>
             
                     <div className="side-menu">
