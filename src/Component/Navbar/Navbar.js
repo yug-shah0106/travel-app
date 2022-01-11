@@ -68,10 +68,6 @@ function Navbar() {
                                 <li className="nav-link">Blog</li>
                             </a>
 
-                            <a href="sales">
-                                <li className="nav-link">Sales</li>
-                            </a>
-
                             <a href="about">
                                 <li className="nav-link">About us</li>
                             </a>

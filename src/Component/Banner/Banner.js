@@ -22,7 +22,7 @@ function Banner() {
                 <SwiperSlide className="slider-banner-container">
                     <img src={banner} className="slider-banner-image" alt="Beach image" />
                     <div className="swiper-content-container">
-                        <h2 className="swiper-content-subtitle">Change the vibes of every moment</h2>
+                        <h2 className="swiper-content-subtitle">Enjoy the vibes of every moment</h2>
                         <h1 className="swiper-content-title">Find N Vibe</h1>
                         <a href="#" className="swiper-content-button">Get in touch</a>
                     </div>
@@ -30,8 +30,8 @@ function Banner() {
                 <SwiperSlide className="slider-banner-container">
                     <img src={banner} className="slider-banner-image" alt="Beach image" />
                     <div className="swiper-content-container">
-                        <h5 className="swiper-content-multiple">Planning a vacation anytime soon?</h5>
-                        <h6 className="swiper-content-submultiple">well why not enjoy the vibe of these places.</h6>
+                        <h5 className="swiper-content-multiple"></h5>
+                        <h6 className="swiper-content-submultiple"></h6>
                         <a href="#" className="swiper-content-button">Explore Places</a>
                     </div>
                 </SwiperSlide>

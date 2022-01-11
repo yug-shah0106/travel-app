@@ -66,6 +66,8 @@
   } */
   
   .swiper-content-title{
+    margin-top:10px;
+    margin-bottom:10px;
     font-weight: 700;
     font-size: 80px;
     text-transform: capitalize;

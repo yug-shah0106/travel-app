@@ -34,7 +34,6 @@ function Footer() {
                     <h4 className="footer-column-header">Information</h4>
                     <ul>
                         <li><a href="">About us</a></li>
-                        <li><a href="">Delivery Information</a></li>
                         <li><a href="">Privacy Policy</a></li>
                         <li><a href="">Terms & Conditions</a></li>
                     </ul>

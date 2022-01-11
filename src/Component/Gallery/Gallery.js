@@ -8,7 +8,7 @@ function Gallery() {
         <div className="gallery-container">
             <div className="container">
                <div className="gallery-header-container">
-                    <h1 className="gallery-title">Destinations Gallery</h1>
+                    <h1 className="gallery-title">Happy Moments</h1>
                     <hr className="gallery-title-underline"/>
                     <p className="gallery-description">Our customer vibing on trip</p>           
                 </div>

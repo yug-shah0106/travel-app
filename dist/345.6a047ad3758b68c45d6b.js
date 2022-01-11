@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktravel_app=self.webpackChunktravel_app||[]).push([[345],{345:(e,a,t)=>{t.r(a),t.d(a,{default:()=>l});var n=t(294);const l=function(){return n.createElement("h2",null,"Login Page")}}}]);

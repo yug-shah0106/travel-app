@@ -11,9 +11,9 @@ function DomesticTravelPackages() {
         <div className="package-container">
         <div className="container">
                 <div className="package-header-container">
-                    <h1 className="package-title">Trending Indian Destinations</h1>
+                    <h1 className="package-title">Trending Vibes</h1>
                     <hr className="package-title-underline"/>
-                    <p className="packages-description">Planning a surprise vacation for your family any time soon? Well, these best family holiday destinations in India </p>           
+                    <p className="packages-description">Planning a vacation anytime soon? well !! why not enjoy the vibe of these places.</p>           
                 </div>
 
                 <div className="packages-place-container">

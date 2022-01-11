@@ -13,8 +13,7 @@ function About() {
                     </div>
 
                     <div className="section-right">
-                        <div className="content">
-                            <h2 className="subtitle">About us</h2>
+                        <div className="content"> 
                             <h1 className="title">FulFil your exclusive bucket list</h1>
                             <ul>
                                 <li>See the 7 Wonders of world</li>
