@@ -66,3 +66,17 @@
     background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
   }
   
+
+
+  /* *******************  Media query for 1080px  ************************* */
+  
+  @media only screen and (max-width:1024px){
+
+    .cover-package-block{
+      margin: 0 20px;
+      width: 250px;
+      height: 330px;
+    }
+
+  }
+  

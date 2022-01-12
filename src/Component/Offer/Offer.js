@@ -25,11 +25,11 @@ function Offer() {
                         autoplay={{ delay: 2500 }} 
                         slidesPerView={3}
                         breakpoints={{
-                            "640": {
-                                "slidesPerView": 2,
+                            "450": {
+                                "slidesPerView": 1,
                             },
                             "768": {
-                                "slidesPerView": 3,
+                                "slidesPerView": 2,
                             },
                             "1024": {
                                 "slidesPerView": 3,

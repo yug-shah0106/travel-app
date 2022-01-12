@@ -1,21 +1,25 @@
 
 .footer-container{
-    padding: 50px 20px 20px;
+    padding: 50px 0 0;
     background: var(--main-color);
   }
   
   .footer-column-container{
+    padding: 0 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     grid-gap: 20px;
   }
 
-  .footer-column-header-logo{
+  .footer-column-header-title{
     font-size: 30px;
-    text-align: center;
-    padding-bottom: 20px;
     color: var(--title-color);
-    
+ }
+
+.footer-column-header-subtitle{
+  font-size: 25px;
+  padding-bottom: 20px;
+  color: var(--title-color);
 }
   
   .footer-column-header{
@@ -46,20 +50,27 @@
   /* *************  Social icon css start   ***************** */
 
   .social-icon-container{
+    margin-top: 20px;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
   }
   
   .social-icon-block{
-    width: 38px;
-    height: 38px;
-    display: grid;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
     background: var(--text-color);
-    place-items: center;
     border-radius: 6px;
     cursor: pointer;
     transition: .2s ease-in;
+  }
+  
+  .social-icon-block a{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
   }
   
   .social-icon-block:hover{
@@ -75,10 +86,32 @@
   }
   
   .social-icon-block:hover svg{
-    fill:var(--bold-color);
+    fill:var(--main-color);
+  }
+
+  .social-icon-block:hover{
+    background:var(--title-color);
   }
   
+  
   /* ****  Social icon css end  *** */
+
+
+
+  .footer-copyright-container{
+    margin-top: 20px;
+    padding: 10px 0;
+    background: var(--title-color);
+    text-align: center;
+  }
+
+  .footer-copyright-container .copyright{
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text-color);
+      text-transform: capitalize;
+      opacity: .8;
+  }
   
 
   @media only screen and (max-width:1200px){
@@ -106,3 +139,27 @@
     }
 
   }
+
+
+  @media only screen and (max-width:768px){
+    .footer-column-container{
+      grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); 
+      grid-row-gap: 30px;
+    }
+  }
+
+  @media only screen and (max-width:550px){
+    .footer-column-container{
+      text-align: center;
+    }
+
+    .social-icon-container{
+        justify-content: space-evenly;
+    }
+
+    .footer-copyright-container .copyright{
+      font-size: 12px;
+    }
+  }
+
+
